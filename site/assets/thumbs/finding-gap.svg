@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="thumb-svg" viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Finding Gap 대표 그림">
+<defs><linearGradient id="gfindinggap" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(166 62% 30%)"/><stop offset="1" stop-color="hsl(188 70% 12%)"/></linearGradient>
+<radialGradient id="rfindinggap" cx=".72" cy=".42" r=".5"><stop offset="0" stop-color="hsl(136 85% 70%)" stop-opacity=".55"/><stop offset="1" stop-color="hsl(136 85% 70%)" stop-opacity="0"/></radialGradient>
+<pattern id="pfindinggap" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity=".09"/></pattern></defs>
+<rect width="320" height="200" fill="url(#gfindinggap)"/><rect width="320" height="200" fill="url(#pfindinggap)"/><rect width="320" height="200" fill="url(#rfindinggap)"/>
+<circle cx="230" cy="84" r="64" fill="none" stroke="#fff" stroke-opacity=".10" stroke-width="1"/><circle cx="230" cy="84" r="92" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="1"/>
+<g transform="translate(176 30) scale(4.5)" fill="none" stroke="#fff" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z M12 12m-3 0a3 3 0 106 0a3 3 0 10-6 0"/></g>
+<g transform="translate(22 22) scale(1.1)" fill="none" stroke="hsl(136 85% 70%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z M12 12m-3 0a3 3 0 106 0a3 3 0 10-6 0"/></g>
+</svg>

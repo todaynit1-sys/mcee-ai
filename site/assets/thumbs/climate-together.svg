@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="thumb-svg" viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="기후동행 대표 그림">
+<defs><linearGradient id="gclimatetogether" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(182 62% 30%)"/><stop offset="1" stop-color="hsl(204 70% 12%)"/></linearGradient>
+<radialGradient id="rclimatetogether" cx=".72" cy=".42" r=".5"><stop offset="0" stop-color="hsl(152 85% 70%)" stop-opacity=".55"/><stop offset="1" stop-color="hsl(152 85% 70%)" stop-opacity="0"/></radialGradient>
+<pattern id="pclimatetogether" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity=".09"/></pattern></defs>
+<rect width="320" height="200" fill="url(#gclimatetogether)"/><rect width="320" height="200" fill="url(#pclimatetogether)"/><rect width="320" height="200" fill="url(#rclimatetogether)"/>
+<circle cx="230" cy="84" r="64" fill="none" stroke="#fff" stroke-opacity=".10" stroke-width="1"/><circle cx="230" cy="84" r="92" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="1"/>
+<g transform="translate(176 30) scale(4.5)" fill="none" stroke="#fff" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"><path d="M6 19a2 2 0 100-4 2 2 0 000 4z M18 9a2 2 0 100-4 2 2 0 000 4z M8 17h7a3 3 0 000-6H9a3 3 0 010-6h7"/></g>
+<g transform="translate(22 22) scale(1.1)" fill="none" stroke="hsl(152 85% 70%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"><path d="M6 19a2 2 0 100-4 2 2 0 000 4z M18 9a2 2 0 100-4 2 2 0 000 4z M8 17h7a3 3 0 000-6H9a3 3 0 010-6h7"/></g>
+</svg>

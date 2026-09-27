@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="thumb-svg" viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="K-Work NAVI 대표 그림">
+<defs><linearGradient id="gkworknavi" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(217 62% 30%)"/><stop offset="1" stop-color="hsl(239 70% 12%)"/></linearGradient>
+<radialGradient id="rkworknavi" cx=".72" cy=".42" r=".5"><stop offset="0" stop-color="hsl(187 85% 70%)" stop-opacity=".55"/><stop offset="1" stop-color="hsl(187 85% 70%)" stop-opacity="0"/></radialGradient>
+<pattern id="pkworknavi" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity=".09"/></pattern></defs>
+<rect width="320" height="200" fill="url(#gkworknavi)"/><rect width="320" height="200" fill="url(#pkworknavi)"/><rect width="320" height="200" fill="url(#rkworknavi)"/>
+<circle cx="230" cy="84" r="64" fill="none" stroke="#fff" stroke-opacity=".10" stroke-width="1"/><circle cx="230" cy="84" r="92" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="1"/>
+<g transform="translate(176 30) scale(4.5)" fill="none" stroke="#fff" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-8-8 18-2-8z"/></g>
+<g transform="translate(22 22) scale(1.1)" fill="none" stroke="hsl(187 85% 70%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"><path d="M3 11l18-8-8 18-2-8z"/></g>
+</svg>

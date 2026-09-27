@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="thumb-svg" viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="디코드 워터 TMS 대표 그림">
+<defs><linearGradient id="gdecodewatertms" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(192 62% 30%)"/><stop offset="1" stop-color="hsl(214 70% 12%)"/></linearGradient>
+<radialGradient id="rdecodewatertms" cx=".72" cy=".42" r=".5"><stop offset="0" stop-color="hsl(162 85% 70%)" stop-opacity=".55"/><stop offset="1" stop-color="hsl(162 85% 70%)" stop-opacity="0"/></radialGradient>
+<pattern id="pdecodewatertms" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity=".09"/></pattern></defs>
+<rect width="320" height="200" fill="url(#gdecodewatertms)"/><rect width="320" height="200" fill="url(#pdecodewatertms)"/><rect width="320" height="200" fill="url(#rdecodewatertms)"/>
+<circle cx="230" cy="84" r="64" fill="none" stroke="#fff" stroke-opacity=".10" stroke-width="1"/><circle cx="230" cy="84" r="92" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="1"/>
+<g transform="translate(176 30) scale(4.5)" fill="none" stroke="#fff" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 7 6 11a6 6 0 01-12 0c0-4 6-11 6-11z M9.5 15a2.5 2.5 0 002.5 2.5"/></g>
+<g transform="translate(22 22) scale(1.1)" fill="none" stroke="hsl(162 85% 70%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"><path d="M12 3s6 7 6 11a6 6 0 01-12 0c0-4 6-11 6-11z M9.5 15a2.5 2.5 0 002.5 2.5"/></g>
+</svg>

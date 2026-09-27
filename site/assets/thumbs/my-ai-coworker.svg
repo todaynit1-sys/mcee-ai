@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="thumb-svg" viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="My Ai-Coworker 대표 그림">
+<defs><linearGradient id="gmyaicoworker" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(222 62% 30%)"/><stop offset="1" stop-color="hsl(244 70% 12%)"/></linearGradient>
+<radialGradient id="rmyaicoworker" cx=".72" cy=".42" r=".5"><stop offset="0" stop-color="hsl(192 85% 70%)" stop-opacity=".55"/><stop offset="1" stop-color="hsl(192 85% 70%)" stop-opacity="0"/></radialGradient>
+<pattern id="pmyaicoworker" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity=".09"/></pattern></defs>
+<rect width="320" height="200" fill="url(#gmyaicoworker)"/><rect width="320" height="200" fill="url(#pmyaicoworker)"/><rect width="320" height="200" fill="url(#rmyaicoworker)"/>
+<circle cx="230" cy="84" r="64" fill="none" stroke="#fff" stroke-opacity=".10" stroke-width="1"/><circle cx="230" cy="84" r="92" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="1"/>
+<g transform="translate(176 30) scale(4.5)" fill="none" stroke="#fff" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h6l2 2h10v11H3z M8 14h8"/></g>
+<g transform="translate(22 22) scale(1.1)" fill="none" stroke="hsl(192 85% 70%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"><path d="M3 6h6l2 2h10v11H3z M8 14h8"/></g>
+</svg>
