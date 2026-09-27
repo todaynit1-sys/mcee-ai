@@ -4,6 +4,29 @@
   // 콘텐츠는 스크립트나 관찰 API가 실패해도 읽을 수 있습니다.
   d.querySelectorAll('.rv,.big20,.bars').forEach(function (el) { el.classList.add('in'); });
   d.querySelectorAll('[data-w]').forEach(function (el) { el.style.width = el.dataset.w; });
+  var trackButtons = Array.from(d.querySelectorAll('[data-track]'));
+  if (trackButtons.length) {
+    var mobile = window.matchMedia('(max-width:760px)');
+    var chosenTrack = new URLSearchParams(location.search).get('category') === 'auto' ? 'auto' : 'svc';
+    function trackFromHash() {
+      var target = d.getElementById(location.hash.slice(1));
+      if (target && target.dataset.cat) chosenTrack = target.dataset.cat;
+    }
+    function showTrack() {
+      d.documentElement.classList.add('tracks-ready');
+      trackButtons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.track === chosenTrack)); });
+      d.querySelectorAll('.team-group').forEach(function (g) { g.hidden = mobile.matches && g.dataset.group !== chosenTrack; });
+    }
+    trackButtons.forEach(function (b) { b.addEventListener('click', function () {
+      chosenTrack = b.dataset.track;
+      var url = new URL(location.href); url.searchParams.set('category', chosenTrack); url.hash = '';
+      history.replaceState(null, '', url); showTrack();
+    }); });
+    mobile.addEventListener('change', showTrack);
+    window.addEventListener('hashchange', function () { trackFromHash(); showTrack(); });
+    window.addEventListener('popstate', function () { chosenTrack = new URLSearchParams(location.search).get('category') === 'auto' ? 'auto' : 'svc'; trackFromHash(); showTrack(); });
+    trackFromHash(); showTrack();
+  }
   var grid = d.getElementById('grid');
   if (grid && d.getElementById('q')) {
     var buttons = Array.from(d.querySelectorAll('[data-f]'));
